@@ -1,0 +1,40 @@
+#portal-globalnav {
+    position: relative;
+}
+#portal-globalnav .sub-container .sub a {
+    color: #205C90;
+    padding: 7px 10px; 
+    display: block; 
+    float: none; 
+    font-size: 0.9em;
+    border-right: none;
+}
+#portal-globalnav .sub-container a:hover {
+    background-color: transparent;
+}
+
+#portal-globalnav li .sub li.mega-hdr {
+    margin: 0 10px 10px 0;
+    float: left;
+}
+#portal-globalnav li .sub li.mega-hdr.last {
+    margin-right: 0;
+}
+.sub-container {
+    position: absolute;
+    background-color: #ddd;
+}
+.sub-container .sub ul {
+    display: block;
+}
+.sub-container li .sub {
+    background: #efefef; 
+    padding: 15px; 
+    border: 1px solid #ccc;
+}
+.sub-container .sub .row {
+    width: 100%; 
+    overflow: hidden;
+    clear: both;
+    float: none;
+}

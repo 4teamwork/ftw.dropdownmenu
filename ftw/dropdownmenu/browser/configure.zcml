@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <!-- Override global sections viewlet -->
+    <browser:viewlet
+        name="plone.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".dropdown.DropdownMenuViewlet"
+        permission="zope2.View"
+        layer="ftw.dropdownmenu.interfaces.IProductLayer"
+        />
+
+    <browser:resourceDirectory
+        name="ftw.dropdownmenu"
+        directory="resources"
+        />
+
+</configure>
