@@ -10,16 +10,6 @@
                 insert-after="*"
                 />
 
-    <javascript id="++resource++ftw.dropdownmenu/jquery.dcmegamenu.min.js"
-                cacheable="True"
-                compression="safe"
-                cookable="True"
-                enabled="on"
-                inline="False"
-                insert-after="*"
-                />
-
-
     <javascript id="++resource++ftw.dropdownmenu/dropdown.js"
                 cacheable="True"
                 compression="safe"

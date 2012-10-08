@@ -32,8 +32,8 @@
             <span tal:content="node/Title">Selected Item Title</span>
         </a>
 
-    <ul tal:attributes="class1 python:'navTree navTreeLevel'+str(level)"
-        tal:condition="python: len(children) > 0 and show_children and bottomLevel and level < bottomLevel or True">
+    <ul tal:attributes="class python:'navTree navTreeLevel'+str(level)"
+        tal:condition="python: len(children) > 0 and show_children and bottomLevel and level < bottomLevel">
         <span tal:replace="structure python:view.recurse(children=children, level=level+1, bottomLevel=bottomLevel)" />
     </ul>
     </tal:level>

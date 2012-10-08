@@ -14,8 +14,10 @@
                                title tab/description|nothing;">
             Tab Name
             </a>
-            <ul>
-                <li tal:replace="structure python:view.createSubMenu(tid)">
+            <ul class="navTree navTreeLevel0"
+                tal:define="submenu python:view.createSubMenu(tid)"
+                tal:condition="submenu">
+                <li tal:replace="structure submenu">
                     SUBMENU
                 </li>
             </ul>
