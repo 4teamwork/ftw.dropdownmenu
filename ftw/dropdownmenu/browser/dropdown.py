@@ -66,6 +66,7 @@ class DropdownMenuViewlet(common.GlobalSectionsViewlet):
         query = queryBuilder()
         strategy = getMultiAdapter((context, self), INavtreeStrategy)
         strategy.showAllParents = False
+        query['path']['depth'] = 3
         return buildFolderTree(context, obj=context, query=query, strategy=strategy)
 
     def render(self):
