@@ -26,9 +26,9 @@ Usage
 Links
 -----
 
-- Github project repository: https://github.com/4teamwork/ftw.dropdownmenu
-- Issue tracker: https://github.com/4teamwork/ftw.dropdownmenu/issues
-- Package on pypi: http://pypi.python.org/pypi/ftw.dropdownmenu
+- Github: https://github.com/4teamwork/ftw.dropdownmenu
+- Issues: https://github.com/4teamwork/ftw.dropdownmenu/issues
+- Pypi: http://pypi.python.org/pypi/ftw.dropdownmenu
 
 
 Copyright
